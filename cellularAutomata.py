@@ -33,3 +33,5 @@ def simulation(length, nsteps, rule):
     for i in range(nsteps):
         state.append(evolve_state(state[-1], rule))
     return state
+
+print("this is a fork test")
